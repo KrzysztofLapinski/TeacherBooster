@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactEduEvaluator", "ReactEduEvaluator\ReactEduEvaluator.csproj", "{5B9F1C5D-B7B5-47B4-A20F-398999BC5608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubApi", "GitHubApi\GitHubApi.csproj", "{FA030EAA-4112-4CC6-A717-4672D88F75AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B9F1C5D-B7B5-47B4-A20F-398999BC5608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9F1C5D-B7B5-47B4-A20F-398999BC5608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9F1C5D-B7B5-47B4-A20F-398999BC5608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9F1C5D-B7B5-47B4-A20F-398999BC5608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA030EAA-4112-4CC6-A717-4672D88F75AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA030EAA-4112-4CC6-A717-4672D88F75AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA030EAA-4112-4CC6-A717-4672D88F75AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA030EAA-4112-4CC6-A717-4672D88F75AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13634C19-8C60-4C63-BBEB-81AE7A3D83D0}
+	EndGlobalSection
+EndGlobal
