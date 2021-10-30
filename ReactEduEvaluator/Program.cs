@@ -184,7 +184,8 @@ namespace ReactEduEvaluator
                     Collection<PSObject> results = powershell.Invoke();
                 }
                 else if (repository.Name.StartsWith("Wednesday", StringComparison.InvariantCultureIgnoreCase) ||
-                         repository.Name.StartsWith("Tuesday", StringComparison.InvariantCultureIgnoreCase))
+                         repository.Name.StartsWith("Tuesday", StringComparison.InvariantCultureIgnoreCase) ||
+                         repository.Name.StartsWith("Monday", StringComparison.InvariantCultureIgnoreCase))
                 {
                     Console.WriteLine($"Cloning {repository.Name}");
 
