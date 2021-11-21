@@ -102,7 +102,7 @@ namespace ReactEduEvaluator
                 using PowerShell powershell = PowerShell.Create();
                 if (!Directory.Exists(labDirectory))
                 {
-                    Console.WriteLine($"!lab2 doesnt exist in {labDirectory}!");
+                    Console.WriteLine($"!{labDirectory} doesnt exist!");
                 }
                 else
                 {
@@ -179,7 +179,7 @@ namespace ReactEduEvaluator
                 {
                     Console.WriteLine($"Pulling {repository.Name}");
 
-                    powershell.AddScript($"cd {repository.Name}");
+                    powershell.AddScript($"cd {studentsRepositoriesPath}\\{repository.Name}");
                     powershell.AddScript($"git pull");
                     Collection<PSObject> results = powershell.Invoke();
                 }
